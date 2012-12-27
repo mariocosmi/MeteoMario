@@ -1,0 +1,15 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MeteoMario" >
+    
+    <local:MainViewModel.Items>
+        <local:ItemViewModel LineOne="design one" FetchUrl="Maecenas praesent accumsan bibendum"/>
+        <local:ItemViewModel LineOne="design two" FetchUrl="Dictumst eleifend facilisi faucibus"/>
+        <local:ItemViewModel LineOne="design three" FetchUrl="Habitant inceptos interdum lobortis"/>
+        <local:ItemViewModel LineOne="design four" FetchUrl="Nascetur pharetra placerat pulvinar"/>
+        <local:ItemViewModel LineOne="design five" FetchUrl="Sagittis senectus sociosqu suscipit"/>
+        <local:ItemViewModel LineOne="design six" FetchUrl="Torquent ultrices vehicula volutpat"/>
+    </local:MainViewModel.Items>
+    
+</local:MainViewModel>
