@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{be4ce40b-425c-4500-a52f-315ecd4af922}" Title="Meteo Mario" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="MeteoMario author" Description="Il meteo di Mario" Publisher="MeteoMario">
+  <App xmlns="" ProductID="{be4ce40b-425c-4500-a52f-315ecd4af922}" Title="Meteo Mario" RuntimeType="Silverlight" Version="1.0.0.1" Genre="apps.normal" Author="Mario Cosmi" Description="Il meteo di Mario" Publisher="Mario Cosmi">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
