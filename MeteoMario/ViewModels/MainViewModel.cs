@@ -64,10 +64,12 @@ namespace MeteoMario {
 			this.Items.Add(new ItemViewModel() { LineOne = "Monte Lussari", FetchUrl = "http://promotur.digitalwebland.com/webcam/lussari.jpg.ashx?maxheight=768&maxwidth=3000" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Monte Acomizza", FetchUrl = "http://www.crs.inogs.it/ipcam/acom/acom.jpg" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Sella Nevea", FetchUrl = "http://promotur.digitalwebland.com/webcam/sellaseggiovia.jpg.ashx?maxheight=768&maxwidth=3000" });
+			this.Items.Add(new ItemViewModel() { LineOne = "Tarvisio", FetchUrl = "http://94.90.160.242/record/current.jpg" });
+			this.Items.Add(new ItemViewModel() { LineOne = "Kredarica", FetchUrl = "http://meteo.arso.gov.si/uploads/probase/www/observ/webcam/KREDA-ICA_dir/siwc_KREDA-ICA_e_latest.jpg" });
+			this.Items.Add(new ItemViewModel() { LineOne = "Sauris", FetchUrl = "http://www.osmer.fvg.it/COMMON/WEBCAM/WebcamSauris.jpg" });
+			this.Items.Add(new ItemViewModel() { LineOne = "Piancavallo", FetchUrl = "http://promotur.digitalwebland.com/webcam/labusa.jpg.ashx?maxheight=768&maxwidth=3000" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Kötschach-Mauthen", FetchUrl = "http://www.koemau.at/webcam/upload/big_current1.jpg" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Faakersee", FetchUrl = "http://faakersee.it-wms.com/big_current3.jpg" });
-			this.Items.Add(new ItemViewModel() { LineOne = "Kredarica", FetchUrl = "http://meteo.arso.gov.si/uploads/probase/www/observ/webcam/KREDA-ICA_dir/siwc_KREDA-ICA_e_latest.jpg" });
-			this.Items.Add(new ItemViewModel() { LineOne = "Piancavallo", FetchUrl = "http://promotur.digitalwebland.com/webcam/labusa.jpg.ashx?maxheight=768&maxwidth=3000" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Tarcento", FetchUrl = "http://79.38.107.56/record/current.jpg?rand=6990265" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Cividale", FetchUrl = "http://webcam.cividale.net/cividale.jpg" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Udine", FetchUrl = "http://www.comune.udine.it/opencms/castello/castello.jpg" });
@@ -76,7 +78,6 @@ namespace MeteoMario {
 			this.Items.Add(new ItemViewModel() { LineOne = "Grado", FetchUrl = "http://www.osmer.fvg.it/~www/COMMON/WEBCAM/WebcamGradoMare.jpg" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Lignano", FetchUrl = "http://www.osmer.fvg.it/COMMON/WEBCAM/WebcamLignano.jpg" });
 			this.Items.Add(new ItemViewModel() { LineOne = "Trieste", FetchUrl = "http://www.osmer.fvg.it/COMMON/WEBCAM/WebcamTrieste.jpg" });
-			this.Items.Add(new ItemViewModel() { LineOne = "Sauris", FetchUrl = "http://www.osmer.fvg.it/COMMON/WEBCAM/WebcamSauris.jpg" });
 
 			WebClient wc = new WebClient();
 			wc.OpenReadCompleted += OnWebClientOpenReadCompleted;
